@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.page-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.main > div {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h3 {
+    color: #0077b6;
+    margin-top: 0;
+}
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.sidebar {
+    background-color: #e0e7ef;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+}
